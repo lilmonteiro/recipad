@@ -1,10 +1,10 @@
 version: '3.9'
 
 services:
-  chat-front:
+  recipad:
     restart: always
     command: npm start
-    container_name: chat-front
+    container_name: frontend
     build:
       context: .
       dockerfile: Dockerfile
