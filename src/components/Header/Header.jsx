@@ -1,20 +1,25 @@
 import styled from "styled-components";
 import Filters from "../Filters/Filters";
+import {motion} from "framer-motion";
 
-const Container = styled.div`
-  text-align: center;
-  color: white;
-  background-color: #1a3439;
-  padding: 20px;
-  box-sizing: border-box;
-`;
+const style = {
+  textAlign: "center",
+  color: "white",
+  backgroundColor: "#1a3439",
+  padding: "20px",
+  boxSizing: "border-box",
+};
 
 const Header = () => {
+
+  var transition = {duration: 3};
+
+
   return (
-    <Container>
+    <motion.div style={style} exit={{opacity:0}} transition={transition}>
       <h1>ReciPad</h1>
       <Filters></Filters>
-    </Container>
+    </motion.div>
   );
 };
 

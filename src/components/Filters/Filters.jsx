@@ -9,7 +9,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
-  align-items: center;
+  align-items: start;
 
   * {
     transition: all 0.5s ease;
@@ -38,17 +38,23 @@ const Filters = () => {
         }}
       />{" "}
       <Input
-        startDecorator={<SearchRoundedIcon />}
+        startDecorator={
+          <SearchRoundedIcon
+            onClick={(e) => {
+              expandInput(setInputSize);
+            }}
+            sx={{color: "#fff"}}
+          />
+        }
         color="neutral"
         size="md"
-        variant="soft"
+        variant="solid"
         onFocus={(e) => {
           expandInput(setInputSize);
           contractInput(setSelectSize);
         }}
         sx={{flex: inputSize}}
-        onBlur={(e) => {
-        }}
+        onBlur={(e) => {}}
       />{" "}
     </Container>
   );
