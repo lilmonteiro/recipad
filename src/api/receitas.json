@@ -1,0 +1,61 @@
+{
+  "receitas": [
+    {
+      "titulo": "Ovos Benedict",
+      "rendimento": "2 porções",
+      "tempo_de_preparo": "30 minutos",
+      "passos": [
+        {
+          "titulo": "ingredientes",
+          "conteudo": [
+            {
+              "titulo": "",
+              "conteudo": [
+                "2 metades de muffin inglês",
+                "Presunto cozido",
+                "Molho Hollandaise",
+                "Salsa picada para decorar"
+              ]
+            },
+            {
+              "titulo": "Molho Hollandaise",
+              "conteudo": [
+                "2 gemas de ovo",
+                "1 colher de sopa de água",
+                "1 colher de sopa de suco de limão",
+                "1/2 xícara de manteiga derretida",
+                "Sal e pimenta a gosto"
+              ]
+            },
+            {
+              "titulo": "Ovos Poche",
+              "conteudo": ["2 ovos", "Vinagre branco"]
+            }
+          ]
+        },
+        {
+          "titulo": "Ovos Poche",
+          "conteudo": [
+            "Em uma panela, leve água para ferver e adicione um pouco de vinagre branco.",
+            "Quebre os ovos diretamente na água fervente e cozinhe por cerca de 4 minutos."
+          ]
+        },
+        {
+          "titulo": "Molho Holandes",
+          "conteudo": [
+            "Em uma panela, misture 2 gemas de ovo, 1 colher de sopa de água e 1 colher de sopa de suco de limão.",
+            "Cozinhe em banho-maria, mexendo constantemente até engrossar.",
+            "Retire do fogo e misture 1/2 xícara de manteiga derretida. Tempere com sal e pimenta a gosto."
+          ]
+        },
+        {
+          "titulo": "Montagem",
+          "conteudo": [
+            "Coloque metades de muffin inglês no prato, adicione presunto cozido e os ovos pochê.",
+            "Cubra com o molho Hollandaise e decore com salsa picada."
+          ]
+        }
+      ]
+    }
+  ]
+}

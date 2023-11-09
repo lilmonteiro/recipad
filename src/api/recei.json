@@ -1,0 +1,156 @@
+{
+  "bolo_de_churros": {
+    "titulo": "Bolo de Churros",
+    "rendimento": "10 porções",
+    "tempo_de_preparo": "1 hora",
+    "passos": [
+      {
+        "titulo": "ingredientes",
+        "conteudo": [
+          "2 xícaras de farinha de trigo",
+          "1 xícara de açúcar",
+          "1 colher de chá de canela em pó",
+          "1 colher de sopa de fermento em pó",
+          "1/2 xícara de leite",
+          "1/2 xícara de óleo",
+          "3 ovos"
+        ]
+      },
+      {
+        "titulo": "modo de preparo",
+        "conteudo": [
+          "Misture 2 xícaras de farinha de trigo, 1 xícara de açúcar, 1 colher de chá de canela em pó e 1 colher de sopa de fermento em pó em uma tigela.",
+          "Adicione 1/2 xícara de leite, 1/2 xícara de óleo e 3 ovos à mistura seca e misture bem até obter uma massa homogênea.",
+          "Despeje a massa em uma forma untada e leve ao forno preaquecido a 180°C por 30-40 minutos, ou até que o bolo esteja dourado e firme ao toque.",
+          "Enquanto o bolo assa, misture açúcar e canela em um prato raso. Após retirar o bolo do forno, polvilhe a mistura de açúcar e canela sobre o bolo ainda quente.",
+          "Deixe o bolo esfriar antes de cortar e servir."
+        ]
+      }
+    ],
+    "ranking": 4.8,
+    "arquivo_mp3": "bolo_de_churros.mp3"
+  },
+  "empanada": {
+    "titulo": "Empanada",
+    "rendimento": "8 porções",
+    "tempo_de_preparo": "1 hora e 30 minutos",
+    "passos": [
+      {
+        "titulo": "ingredientes",
+        "conteudo": [
+          "500g de carne moída",
+          "1 cebola picada",
+          "2 dentes de alho picados",
+          "Massa para empanada",
+          "Azeitonas verdes picadas",
+          "Ovos cozidos e picados",
+          "Cominho, páprica, sal e pimenta a gosto"
+        ]
+      },
+      {
+        "titulo": "modo de preparo",
+        "conteudo": [
+          "Refogue 500g de carne moída com 1 cebola picada e 2 dentes de alho picados. Tempere com cominho, páprica, sal e pimenta.",
+          "Em uma massa de empanada, coloque a carne, azeitonas e ovos.",
+          "Feche a massa e asse a 180°C até dourar."
+        ]
+      }
+    ],
+    "ranking": 4.5,
+    "arquivo_mp3": "empanada.mp3"
+  },
+  "guacamole": {
+    "titulo": "Guacamole",
+    "rendimento": "4 porções",
+    "tempo_de_preparo": "20 minutos",
+    "passos": [
+      {
+        "titulo": "ingredientes",
+        "conteudo": [
+          "2 abacates maduros",
+          "1 tomate picado",
+          "1/2 cebola picada",
+          "1 dente de alho picado",
+          "Suco de 1 limão",
+          "Coentro fresco a gosto",
+          "Sal e pimenta a gosto"
+        ]
+      },
+      {
+        "titulo": "modo de preparo",
+        "conteudo": [
+          "Amasse 2 abacates maduros e misture com 1 tomate picado, 1/2 cebola picada e 1 dente de alho picado.",
+          "Tempere com suco de 1 limão, coentro fresco a gosto, sal e pimenta a gosto."
+        ]
+      }
+    ],
+    "ranking": 4.9,
+    "arquivo_mp3": "guacamole.mp3"
+  },
+  "soda_italiana": {
+    "titulo": "Soda Italiana",
+    "rendimento": "2 copos",
+    "tempo_de_preparo": "5 minutos",
+    "passos": [
+      {
+        "titulo": "ingredientes",
+        "conteudo": [
+          "1/2 xícara de suco de limão",
+          "1/4 de xícara de xarope de framboesa",
+          "1/4 de xícara de água com gás",
+          "Gelo a gosto",
+          "Rodelas de limão para decorar"
+        ]
+      },
+      {
+        "titulo": "modo de preparo",
+        "conteudo": [
+          "Em um copo, misture 1/2 xícara de suco de limão, 1/4 de xícara de xarope de framboesa e 1/4 de xícara de água com gás.",
+          "Adicione gelo e decore com rodelas de limão."
+        ]
+      }
+    ],
+    "ranking": 4.7,
+    "arquivo_mp3": "soda_italiana.mp3"
+  },
+  "ovos_beneditinos": {
+    "titulo": "Ovos Benedict",
+    "rendimento": "2 porções",
+    "tempo_de_preparo": "30 minutos",
+    "passos": [
+      {
+        "titulo": "Molho Hollandaise",
+        "conteudo": [
+          "2 gemas de ovo",
+          "1 colher de sopa de água",
+          "1 colher de sopa de suco de limão",
+          "1/2 xícara de manteiga derretida",
+          "Sal e pimenta a gosto"
+        ]
+      },
+      {
+        "titulo": "Ovos Poche",
+        "conteudo": ["2 ovos", "Vinagre branco"]
+      },
+      {
+        "titulo": "Montagem",
+        "conteudo": [
+          "2 metades de muffin inglês",
+          "Presunto cozido",
+          "Molho Hollandaise",
+          "Salsa picada para decorar"
+        ]
+      },
+      {
+        "titulo": "modo de preparo",
+        "conteudo": [
+          "Prepare o molho Hollandaise: Em uma panela, misture 2 gemas de ovo, 1 colher de sopa de água e 1 colher de sopa de suco de limão. Cozinhe em banho-maria, mexendo constantemente até engrossar. Retire do fogo e misture 1/2 xícara de manteiga derretida. Tempere com sal e pimenta a gosto.",
+          "Prepare os ovos pochê: Em uma panela, leve água para ferver e adicione um pouco de vinagre branco. Quebre os ovos diretamente na água fervente e cozinhe por cerca de 4 minutos.",
+          "Montagem: Coloque metades de muffin inglês no prato, adicione presunto cozido e os ovos pochê. Cubra com o molho Hollandaise e decore com salsa picada."
+        ]
+      }
+    ],
+    "ranking": 4.6,
+    "arquivo_mp3": "ovos_beneditinos.mp3"
+  }
+}
