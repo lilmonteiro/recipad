@@ -5,6 +5,7 @@ import data from "../../api/receitas.json"
 
 
 const ListRepices = () => {
+  
   return (
     <Box
       component="ul"

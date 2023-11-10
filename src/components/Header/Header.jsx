@@ -11,13 +11,14 @@ const style = {
 };
 
 const Header = () => {
-
   var transition = {duration: 3};
 
-
   return (
-    <motion.div style={style} exit={{opacity:0}} transition={transition}>
-      <h1>ReciPad</h1>
+    <motion.div 
+      style={style} 
+      // exit={{opacity: 0}} 
+      transition={transition}>
+      <h1 style={{marginTop:0}}>ReciPad</h1>
       <Filters></Filters>
     </motion.div>
   );

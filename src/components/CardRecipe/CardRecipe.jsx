@@ -15,12 +15,12 @@ import {animate, motion} from "framer-motion";
 import {useState} from "react";
 import {Link} from "react-router-dom";
 
-const CardRecipe = ({receita}) => {
+const CardRecipe = ({titleSize,recipepage=false, delay, rounded = true, receita}) => {
   const {id, titulo, capa, tempo, rendimento, tipo, nivel} = receita;
   const [selected, setSelected] = useState();
   const navigate = useNavigate();
 
-  var transition = {duration: 1};
+  var transition = {duration: 0.25, ease: [0.55, 0.83, 0.65, 0.45]};
 
   const sxBox = {
     display: "flex",
@@ -29,27 +29,34 @@ const CardRecipe = ({receita}) => {
     fontSize: "14px",
     textTransform: "capitalize",
   };
-  const handleGoToPage = (id) => {
-    // setSelected(id);
-    // navigate(`/receita/${id}`);
+  const handleItemClick = (id) => {
+    setSelected(id);
   };
 
   return (
-    <Link to={`/receita/${id}`}>
+    <Link to={`/receita/${id}`} style={{textDecoration: "none"}}>
       <Card
-        //   onClick={(e) => {
-        //     handleGoToPage(id);
-        //   }}
-        //   component="li"
-        sx={{minWidth: 300, flexGrow: 1}}
+        onClick={(e) => {
+          handleItemClick(id);
+        }}
+        sx={{minWidth: 300, flexGrow: 1, borderRadius: !rounded && 0}}
         variant="solid"
-        // whileHover={{scale: 1.5}}
         component={motion.li}
-        // exit={{scale: 1.5}}
-        // transition={transition}
+        exit={
+          id === selected
+            ? {scale: 1, opacity: 1, y: 100 * id * -1 + "%"}
+            : {
+                scale: 1,
+                opacity: 0,
+                transitionEnd: {
+                  display: "none",
+                },
+              }
+        }
+        transition={transition}
       >
         <CardCover>
-          <motion.img src={capa} loading="lazy" />
+          <motion.img transition={transition} src={capa} loading="lazy" />
         </CardCover>
         <CardCover
           sx={{
@@ -61,9 +68,18 @@ const CardRecipe = ({receita}) => {
           <Chip onClick={function () {}} variant="soft" color="primary">
             {nivel}
           </Chip>
-          <Typography level="h2" textColor="#fff" mt={{xs: 4, sm: 18}}>
+          <motion.h1
+            style={{
+              fontSize: "1.8em",
+              paddingTop: 35,
+              margin: 0,
+              color: "#fff"
+            }}
+            animate={{paddingTop: recipepage? 100 : 35}}
+            transition={{ delay: delay? .1 : 0 }}
+          >
             {titulo}
-          </Typography>
+          </motion.h1>
           <Typography level="p" textColor="#fff">
             <Stack direction="row" spacing={1}>
               <Box ariant="plain" sx={sxBox}>

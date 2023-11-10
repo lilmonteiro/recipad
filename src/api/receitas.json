@@ -3,6 +3,7 @@
     {
       "id": 0,
       "titulo": "Ovos Benedict",
+      "descricao": "Os Ovos Benedict são uma deliciosa iguaria matinal composta por um muffin inglês tostado, presunto ou bacon defumado, ovos pochê perfeitamente preparados e regados com uma generosa porção de molho hollandaise sedoso. ",
       "tipo": "refeição",
       "nivel": "fácil",
       "rendimento": "2 porções",
@@ -62,8 +63,9 @@
       ]
     },
     {
-      "id":1,
+      "id": 1,
       "titulo": "Outra receita",
+      "descricao": "Os Ovos Benedict são uma deliciosa iguaria matinal composta por um muffin inglês tostado, presunto ou bacon defumado, ovos pochê perfeitamente preparados e regados com uma generosa porção de molho hollandaise sedoso. ",
       "tipo": "sobremesa",
       "nivel": "difícil",
       "rendimento": "2 porções",
@@ -123,8 +125,9 @@
       ]
     },
     {
-      "id":2,
+      "id": 2,
       "titulo": "Terceira receita",
+      "descricao": "Os Ovos Benedict são uma deliciosa iguaria matinal composta por um muffin inglês tostado, presunto ou bacon defumado, ovos pochê perfeitamente preparados e regados com uma generosa porção de molho hollandaise sedoso. ",
       "tipo": "sobremesa",
       "nivel": "difícil",
       "rendimento": "2 porções",

@@ -3,7 +3,7 @@ import Header from "../../components/Header/Header";
 import ListRepices from "../../components/ListRecipes/ListRepices";
 import {motion} from "framer-motion"
 
-const RecipesPage = () => {
+const AllRecipesPage = () => {
   return (
     <Container>
       <Header />
@@ -12,4 +12,4 @@ const RecipesPage = () => {
   );
 };
 
-export default RecipesPage;
+export default AllRecipesPage;
