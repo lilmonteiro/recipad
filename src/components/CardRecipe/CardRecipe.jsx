@@ -15,7 +15,13 @@ import {animate, motion} from "framer-motion";
 import {useState} from "react";
 import {Link} from "react-router-dom";
 
-const CardRecipe = ({titleSize,recipepage=false, delay, rounded = true, receita}) => {
+const CardRecipe = ({
+  titleSize,
+  recipepage = false,
+  delay,
+  rounded = true,
+  receita,
+}) => {
   const {id, titulo, capa, tempo, rendimento, tipo, nivel} = receita;
   const [selected, setSelected] = useState();
   const navigate = useNavigate();
@@ -61,7 +67,7 @@ const CardRecipe = ({titleSize,recipepage=false, delay, rounded = true, receita}
         <CardCover
           sx={{
             background:
-              "linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0,0,0,0) 200px), linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0) 300px)",
+              "linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0,0,0,0) 200px), linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0) 300px)",
           }}
         />
         <CardContent>
@@ -73,10 +79,10 @@ const CardRecipe = ({titleSize,recipepage=false, delay, rounded = true, receita}
               fontSize: "1.8em",
               paddingTop: 35,
               margin: 0,
-              color: "#fff"
+              color: "#fff",
             }}
-            animate={{paddingTop: recipepage? 100 : 35}}
-            transition={{ delay: delay? .1 : 0 }}
+            animate={{paddingTop: recipepage ? 100 : 35}}
+            transition={{delay: delay ? 0.1 : 0}}
           >
             {titulo}
           </motion.h1>
@@ -84,16 +90,16 @@ const CardRecipe = ({titleSize,recipepage=false, delay, rounded = true, receita}
             <Stack direction="row" spacing={1}>
               <Box ariant="plain" sx={sxBox}>
                 <LabelOutlinedIcon fontSize="12px" />
-                {tipo}
+                <Typography>{tipo}</Typography>
               </Box>
               <Box variant="plain" sx={sxBox}>
                 {" "}
                 <AccessTimeRoundedIcon fontSize="12px" />
-                {tempo}
+                <Typography>{tempo}</Typography>
               </Box>
               <Box ariant="plain" sx={sxBox}>
                 <LocalDiningRoundedIcon fontSize="12px" />
-                {rendimento}
+                <Typography>{rendimento}</Typography>
               </Box>
             </Stack>
           </Typography>

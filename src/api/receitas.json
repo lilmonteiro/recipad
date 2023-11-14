@@ -3,18 +3,18 @@
     {
       "id": 0,
       "titulo": "Ovos Benedict",
-      "descricao": "Os Ovos Benedict são uma deliciosa iguaria matinal composta por um muffin inglês tostado, presunto ou bacon defumado, ovos pochê perfeitamente preparados e regados com uma generosa porção de molho hollandaise sedoso. ",
+      "descricao": "Os Ovos Benedict são uma deliciosa iguaria matinal composta por um muffin inglês tostado, presunto ou bacon defumado, ovos pochê perfeitamente preparados e regados com uma generosa porção de molho hollandaise sedoso.",
       "tipo": "refeição",
-      "nivel": "fácil",
+      "nivel": "difícil",
       "rendimento": "2 porções",
       "capa": "/images/ovos-benedict.jpg",
       "tempo": "30 minutos",
       "passos": [
         {
-          "titulo": "ingredientes",
+          "titulo": "Ingredientes",
           "conteudo": [
             {
-              "titulo": "",
+              "titulo": "Montagem",
               "conteudo": [
                 "2 metades de muffin inglês",
                 "Presunto cozido",
@@ -64,124 +64,305 @@
     },
     {
       "id": 1,
-      "titulo": "Outra receita",
-      "descricao": "Os Ovos Benedict são uma deliciosa iguaria matinal composta por um muffin inglês tostado, presunto ou bacon defumado, ovos pochê perfeitamente preparados e regados com uma generosa porção de molho hollandaise sedoso. ",
-      "tipo": "sobremesa",
-      "nivel": "difícil",
+      "titulo": "Soda Italiana",
+      "descricao": "Soda Italiana é uma refrescante bebida gaseificada feita com suco de limão, xarope de framboesa e água com gás. Perfeita para dias quentes!",
+      "tipo": "drink",
+      "nivel": "fácil",
       "rendimento": "2 porções",
-      "capa": "/images/ovos-benedict.jpg",
-      "tempo": "30 minutos",
+      "capa": "/images/sodaitaliana.jpg",
+      "tempo": "5 minutos",
       "passos": [
         {
-          "titulo": "ingredientes",
+          "titulo": "Ingredientes",
           "conteudo": [
             {
-              "titulo": "",
+              "titulo": "Soda Italiana",
               "conteudo": [
-                "2 metades de muffin inglês",
-                "Presunto cozido",
-                "Molho Hollandaise",
-                "Salsa picada para decorar"
+                "1/2 xícara de suco de limão",
+                "1/4 de xícara de xarope de framboesa",
+                "1/4 de xícara de água com gás"
               ]
             },
             {
-              "titulo": "Molho Hollandaise",
-              "conteudo": [
-                "2 gemas de ovo",
-                "1 colher de sopa de água",
-                "1 colher de sopa de suco de limão",
-                "1/2 xícara de manteiga derretida",
-                "Sal e pimenta a gosto"
-              ]
-            },
-            {
-              "titulo": "Ovos Poche",
-              "conteudo": ["2 ovos", "Vinagre branco"]
+              "titulo": "Para Servir",
+              "conteudo": ["Gelo a gosto", "Rodelas de limão para decorar"]
             }
           ]
         },
         {
-          "titulo": "Ovos Poche",
+          "titulo": "Modo de Preparo",
           "conteudo": [
-            "Em uma panela, leve água para ferver e adicione um pouco de vinagre branco.",
-            "Quebre os ovos diretamente na água fervente e cozinhe por cerca de 4 minutos."
-          ]
-        },
-        {
-          "titulo": "Molho Holandes",
-          "conteudo": [
-            "Em uma panela, misture 2 gemas de ovo, 1 colher de sopa de água e 1 colher de sopa de suco de limão.",
-            "Cozinhe em banho-maria, mexendo constantemente até engrossar.",
-            "Retire do fogo e misture 1/2 xícara de manteiga derretida. Tempere com sal e pimenta a gosto."
-          ]
-        },
-        {
-          "titulo": "Montagem",
-          "conteudo": [
-            "Coloque metades de muffin inglês no prato, adicione presunto cozido e os ovos pochê.",
-            "Cubra com o molho Hollandaise e decore com salsa picada."
+            "Em um copo, misture 1/2 xícara de suco de limão, 1/4 de xícara de xarope de framboesa e 1/4 de xícara de água com gás.",
+            "Adicione gelo e decore com rodelas de limão."
           ]
         }
       ]
     },
     {
       "id": 2,
-      "titulo": "Terceira receita",
-      "descricao": "Os Ovos Benedict são uma deliciosa iguaria matinal composta por um muffin inglês tostado, presunto ou bacon defumado, ovos pochê perfeitamente preparados e regados com uma generosa porção de molho hollandaise sedoso. ",
+      "titulo": "Bolo de Churros",
+      "descricao": "Bolo de Churros é uma sobremesa deliciosa inspirada nos populares churros. A massa macia e perfumada é misturada com canela e coberta com açúcar e canela. Uma verdadeira indulgência!",
       "tipo": "sobremesa",
       "nivel": "difícil",
-      "rendimento": "2 porções",
-      "capa": "/images/ovos-benedict.jpg",
-      "tempo": "30 minutos",
+      "rendimento": "10 porções",
+      "capa": "/images/bolo-churros.jpg",
+      "tempo": "60 minutos",
       "passos": [
         {
-          "titulo": "ingredientes",
+          "titulo": "Ingredientes",
           "conteudo": [
             {
-              "titulo": "",
+              "titulo": "Massa",
               "conteudo": [
-                "2 metades de muffin inglês",
-                "Presunto cozido",
-                "Molho Hollandaise",
-                "Salsa picada para decorar"
+                "2 xícaras de farinha de trigo",
+                "1 xícara de açúcar",
+                "1 colher de chá de canela em pó",
+                "1 colher de sopa de fermento em pó",
+                "1/2 xícara de leite",
+                "1/2 xícara de óleo",
+                "3 ovos"
               ]
             },
             {
-              "titulo": "Molho Hollandaise",
+              "titulo": "Cobertura",
               "conteudo": [
-                "2 gemas de ovo",
-                "1 colher de sopa de água",
-                "1 colher de sopa de suco de limão",
-                "1/2 xícara de manteiga derretida",
-                "Sal e pimenta a gosto"
+                "1/2 xícara de açúcar",
+                "1 colher de chá de canela em pó"
               ]
-            },
-            {
-              "titulo": "Ovos Poche",
-              "conteudo": ["2 ovos", "Vinagre branco"]
             }
           ]
         },
         {
-          "titulo": "Ovos Poche",
+          "titulo": "Modo de Preparo",
           "conteudo": [
-            "Em uma panela, leve água para ferver e adicione um pouco de vinagre branco.",
-            "Quebre os ovos diretamente na água fervente e cozinhe por cerca de 4 minutos."
+            "Pré-aqueça o forno a 180°C. Unte e enfarinhe uma forma de bolo.",
+            "Em uma tigela, misture 2 xícaras de farinha de trigo, 1 xícara de açúcar, 1 colher de chá de canela em pó e 1 colher de sopa de fermento em pó.",
+            "Em outra tigela, misture 1/2 xícara de leite, 1/2 xícara de óleo e 3 ovos.",
+            "Combine os ingredientes líquidos com os ingredientes secos, mexendo até obter uma massa homogênea.",
+            "Despeje a massa na forma preparada e leve ao forno por 30-40 minutos, ou até que um palito inserido no centro saia limpo.",
+            "Enquanto o bolo assa, misture 1/2 xícara de açúcar com 1 colher de chá de canela em pó para a cobertura.",
+            "Retire o bolo do forno e, ainda quente, polvilhe a cobertura sobre ele.",
+            "Deixe o bolo esfriar antes de cortar e servir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Guacamole",
+      "descricao": "Guacamole é um acompanhamento clássico da culinária mexicana, feito com abacates maduros, tomate, cebola, alho, limão e coentro. Ideal para servir com nachos ou como topping para tacos.",
+      "tipo": "acompanhamento",
+      "nivel": "fácil",
+      "rendimento": "4 porções",
+      "capa": "/images/guacamole.jpg",
+      "tempo": "20 minutos",
+      "passos": [
+        {
+          "titulo": "Ingredientes",
+          "conteudo": [
+            {
+              "titulo": "Guacamole",
+              "conteudo": [
+                "2 abacates maduros",
+                "1 tomate picado",
+                "1/2 cebola picada",
+                "1 dente de alho picado",
+                "Suco de 1 limão",
+                "Coentro fresco a gosto",
+                "Sal e pimenta a gosto"
+              ]
+            }
           ]
         },
         {
-          "titulo": "Molho Holandes",
+          "titulo": "Modo de Preparo",
           "conteudo": [
-            "Em uma panela, misture 2 gemas de ovo, 1 colher de sopa de água e 1 colher de sopa de suco de limão.",
-            "Cozinhe em banho-maria, mexendo constantemente até engrossar.",
-            "Retire do fogo e misture 1/2 xícara de manteiga derretida. Tempere com sal e pimenta a gosto."
+            "Em uma tigela, amasse os abacates maduros.",
+            "Adicione o tomate picado, a cebola picada e o alho picado.",
+            "Misture bem e tempere com suco de limão, coentro fresco, sal e pimenta a gosto.",
+            "Mexa novamente até obter uma consistência cremosa.",
+            "Sirva o guacamole com nachos ou como acompanhamento para seus pratos mexicanos favoritos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Empanadas",
+      "descricao": "Empanadas são deliciosas pastéis recheados, uma especialidade tradicional da culinária latino-americana. Essa receita apresenta uma massa crocante e um recheio suculento de carne, azeitonas e ovos cozidos.",
+      "tipo": "aperitivo",
+      "nivel": "médio",
+      "rendimento": "12 unidades",
+      "capa": "/images/empanadas.jpg",
+      "tempo": "1 hora",
+      "passos": [
+        {
+          "titulo": "Ingredientes",
+          "conteudo": [
+            {
+              "titulo": "Massa",
+              "conteudo": [
+                "3 xícaras de farinha de trigo",
+                "1/2 xícara de banha ou manteiga gelada",
+                "1 ovo",
+                "1/2 xícara de água gelada",
+                "1 colher de chá de sal"
+              ]
+            },
+            {
+              "titulo": "Recheio",
+              "conteudo": [
+                "500g de carne moída",
+                "1 cebola picada",
+                "2 dentes de alho picados",
+                "1/2 xícara de azeitonas verdes picadas",
+                "3 ovos cozidos e picados",
+                "Cominho em pó a gosto",
+                "Pimenta a gosto",
+                "Sal a gosto"
+              ]
+            }
+          ]
+        },
+
+        {
+          "titulo": "Massa",
+          "conteudo": [
+            "Em uma tigela, misture a farinha de trigo e o sal.",
+            "Adicione a banha ou manteiga gelada e misture até obter uma textura de migalhas.",
+            "Adicione o ovo e a água gelada, misturando até formar uma massa homogênea.",
+            "Divida a massa em duas partes, embrulhe em filme plástico e leve à geladeira por 30 minutos."
+          ]
+        },
+        {
+          "titulo": "Recheio",
+          "conteudo": [
+            "Em uma panela, refogue a cebola e o alho até ficarem dourados.",
+            "Adicione a carne moída e cozinhe até dourar. Tempere com cominho, pimenta e sal a gosto.",
+            "Incorpore as azeitonas picadas e os ovos cozidos.",
+            "Deixe o recheio esfriar completamente."
           ]
         },
         {
           "titulo": "Montagem",
           "conteudo": [
-            "Coloque metades de muffin inglês no prato, adicione presunto cozido e os ovos pochê.",
-            "Cubra com o molho Hollandaise e decore com salsa picada."
+            "Pré-aqueça o forno a 180°C.",
+            "Abra cada parte da massa com um rolo até atingir a espessura desejada.",
+            "Corte círculos na massa e coloque uma porção do recheio no centro de cada círculo.",
+            "Dobre a massa ao meio, formando meias-luas, e pressione as bordas com um garfo para selar.",
+            "Disponha as empanadas em uma assadeira e leve ao forno por aproximadamente 25-30 minutos, ou até dourarem."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Sopa Italiana de Tomate",
+      "descricao": "A Sopa Italiana de Tomate é uma opção reconfortante e cheia de sabor para os amantes de tomate. Com ingredientes simples, é uma escolha perfeita para os dias mais frios.",
+      "tipo": "sopa",
+      "nivel": "fácil",
+      "rendimento": "4 porções",
+      "capa": "/images/sopa-italiana.jpg",
+      "tempo": "40 minutos",
+      "passos": [
+        {
+          "titulo": "Ingredientes",
+          "conteudo": [
+            "6 tomates maduros, picados",
+            "1 cebola grande, picada",
+            "3 dentes de alho, picados",
+            "2 colheres de sopa de azeite de oliva",
+            "4 xícaras de caldo de legumes",
+            "1/2 xícara de manjericão fresco, picado",
+            "Sal e pimenta a gosto",
+            "Queijo parmesão ralado para servir"
+          ]
+        },
+        {
+          "titulo": "Modo de Preparo",
+          "conteudo": [
+            "Em uma panela grande, aqueça o azeite de oliva em fogo médio.",
+            "Adicione a cebola e o alho, refogando até ficarem macios e dourados.",
+            "Acrescente os tomates picados e cozinhe até que comecem a se desfazer.",
+            "Despeje o caldo de legumes na panela e deixe ferver.",
+            "Reduza o fogo e deixe a sopa cozinhando por cerca de 20-25 minutos.",
+            "Adicione o manjericão fresco e tempere com sal e pimenta a gosto.",
+            "Sirva a sopa quente, acompanhada de queijo parmesão ralado."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Salada de Quinoa",
+      "descricao": "A Salada de Quinoa é uma opção saudável e deliciosa, repleta de nutrientes. Perfeita como prato principal ou acompanhamento, é fácil de preparar e ótima para refeições leves.",
+      "tipo": "salada",
+      "nivel": "fácil",
+      "rendimento": "4 porções",
+      "capa": "/images/salada-quinoa.jpg",
+      "tempo": "20 minutos",
+      "passos": [
+        {
+          "titulo": "Ingredientes",
+          "conteudo": [
+            "1 xícara de quinoa lavada",
+            "2 xícaras de água",
+            "1 pepino, picado",
+            "1 xícara de tomates cereja, cortados ao meio",
+            "1/2 xícara de azeitonas pretas, fatiadas",
+            "1/4 de xícara de cebola roxa, picada",
+            "1/4 de xícara de salsinha fresca, picada",
+            "1/4 de xícara de azeite de oliva",
+            "Suco de 1 limão",
+            "Sal e pimenta a gosto"
+          ]
+        },
+        {
+          "titulo": "Modo de Preparo",
+          "conteudo": [
+            "Em uma panela, cozinhe a quinoa em água fervente até que os grãos estejam macios e a água tenha sido absorvida.",
+            "Deixe a quinoa esfriar.",
+            "Em uma tigela grande, misture a quinoa cozida, o pepino, os tomates cereja, as azeitonas, a cebola roxa e a salsinha.",
+            "Regue a salada com azeite de oliva e suco de limão. Tempere com sal e pimenta a gosto.",
+            "Misture bem e sirva a salada de quinoa como prato principal ou acompanhamento."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Mousse de Chocolate",
+      "descricao": "O Mousse de Chocolate é uma sobremesa clássica e irresistível. Com textura cremosa e sabor intenso de chocolate, é a escolha perfeita para os amantes de doces.",
+      "tipo": "sobremesa",
+      "nivel": "médio",
+      "rendimento": "6 porções",
+      "capa": "/images/mousse-chocolate.jpg",
+      "tempo": "3 horas",
+      "passos": [
+        {
+          "titulo": "Ingredientes",
+          "conteudo": [
+            "200g de chocolate meio amargo, picado",
+            "3 ovos",
+            "1/4 de xícara de açúcar",
+            "1 colher de chá de essência de baunilha",
+            "1 pitada de sal",
+            "1 xícara de creme de leite fresco",
+            "Chocolate ralado para decorar"
+          ]
+        },
+        {
+          "titulo": "Modo de Preparo",
+          "conteudo": [
+            "Derreta o chocolate meio amargo em banho-maria ou no micro-ondas. Deixe esfriar um pouco.",
+            "Separe as gemas das claras dos ovos.",
+            "Em uma tigela, bata as gemas com o açúcar até obter uma mistura clara e aerada. Adicione a essência de baunilha e o chocolate derretido. Misture bem.",
+            "Em outra tigela, bata as claras dos ovos com uma pitada de sal até obter picos firmes.",
+            "Na primeira mistura, incorpore delicadamente as claras batidas.",
+            "Em uma tigela separada, bata o creme de leite fresco até atingir o ponto de chantilly.",
+            "Adicione o chantilly à mistura de chocolate, incorporando suavemente até obter uma textura homogênea.",
+            "Distribua o mousse de chocolate em taças individuais e leve à geladeira por pelo menos 3 horas, ou até firmar.",
+            "Decore com chocolate ralado antes de servir."
           ]
         }
       ]
