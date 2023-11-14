@@ -3,11 +3,10 @@ import PlayCircleOutlineRoundedIcon from "@mui/icons-material/PlayCircleOutlineR
 import {motion} from "framer-motion";
 
 const StepsRecipe = ({step, setStep, items}) => {
-
   const handleSelectStep = (e) => {
     setStep(e.target.id);
   };
-  
+
   return (
     <motion.div
       initial={{opacity: 0}}
@@ -29,6 +28,8 @@ const StepsRecipe = ({step, setStep, items}) => {
           items.map((passo, i) => {
             return (
               <Button
+                variant="solid"
+                color="warning"
                 key={i}
                 sx={{flexGrow: 1}}
                 id={i}
@@ -39,7 +40,7 @@ const StepsRecipe = ({step, setStep, items}) => {
             );
           })}
       </ButtonGroup>
-      <Button
+      {/* <Button
         fullWidth
         endDecorator={<PlayCircleOutlineRoundedIcon />}
         size="lg"
@@ -47,7 +48,7 @@ const StepsRecipe = ({step, setStep, items}) => {
         color="warning"
       >
         COMEÇAR
-      </Button>
+      </Button> */}
     </motion.div>
   );
 };

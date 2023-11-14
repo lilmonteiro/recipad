@@ -268,14 +268,19 @@
         {
           "titulo": "Ingredientes",
           "conteudo": [
-            "6 tomates maduros, picados",
-            "1 cebola grande, picada",
-            "3 dentes de alho, picados",
-            "2 colheres de sopa de azeite de oliva",
-            "4 xícaras de caldo de legumes",
-            "1/2 xícara de manjericão fresco, picado",
-            "Sal e pimenta a gosto",
-            "Queijo parmesão ralado para servir"
+            {
+              "titulo": "",
+              "conteudo": [
+                "6 tomates maduros, picados",
+                "1 cebola grande, picada",
+                "3 dentes de alho, picados",
+                "2 colheres de sopa de azeite de oliva",
+                "4 xícaras de caldo de legumes",
+                "1/2 xícara de manjericão fresco, picado",
+                "Sal e pimenta a gosto",
+                "Queijo parmesão ralado para servir"
+              ]
+            }
           ]
         },
         {
@@ -305,16 +310,21 @@
         {
           "titulo": "Ingredientes",
           "conteudo": [
-            "1 xícara de quinoa lavada",
-            "2 xícaras de água",
-            "1 pepino, picado",
-            "1 xícara de tomates cereja, cortados ao meio",
-            "1/2 xícara de azeitonas pretas, fatiadas",
-            "1/4 de xícara de cebola roxa, picada",
-            "1/4 de xícara de salsinha fresca, picada",
-            "1/4 de xícara de azeite de oliva",
-            "Suco de 1 limão",
-            "Sal e pimenta a gosto"
+            {
+              "titulo": "",
+              "conteudo": [
+                "1 xícara de quinoa lavada",
+                "2 xícaras de água",
+                "1 pepino, picado",
+                "1 xícara de tomates cereja, cortados ao meio",
+                "1/2 xícara de azeitonas pretas, fatiadas",
+                "1/4 de xícara de cebola roxa, picada",
+                "1/4 de xícara de salsinha fresca, picada",
+                "1/4 de xícara de azeite de oliva",
+                "Suco de 1 limão",
+                "Sal e pimenta a gosto"
+              ]
+            }
           ]
         },
         {
@@ -342,13 +352,18 @@
         {
           "titulo": "Ingredientes",
           "conteudo": [
-            "200g de chocolate meio amargo, picado",
-            "3 ovos",
-            "1/4 de xícara de açúcar",
-            "1 colher de chá de essência de baunilha",
-            "1 pitada de sal",
-            "1 xícara de creme de leite fresco",
-            "Chocolate ralado para decorar"
+            {
+              "titulo": "",
+              "conteudo": [
+                "200g de chocolate meio amargo, picado",
+                "3 ovos",
+                "1/4 de xícara de açúcar",
+                "1 colher de chá de essência de baunilha",
+                "1 pitada de sal",
+                "1 xícara de creme de leite fresco",
+                "Chocolate ralado para decorar"
+              ]
+            }
           ]
         },
         {
