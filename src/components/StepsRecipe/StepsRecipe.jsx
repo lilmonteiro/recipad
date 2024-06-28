@@ -1,6 +1,8 @@
 import {ButtonGroup, Button} from "@mui/joy";
-import PlayCircleOutlineRoundedIcon from "@mui/icons-material/PlayCircleOutlineRounded";
+import ShareRoundedIcon from "@mui/icons-material/ShareRounded";
 import {motion} from "framer-motion";
+import {green} from "@mui/material/colors";
+import {styled} from "@mui/material/styles";
 
 const StepsRecipe = ({step, setStep, items}) => {
   const handleSelectStep = (e) => {
@@ -40,15 +42,15 @@ const StepsRecipe = ({step, setStep, items}) => {
             );
           })}
       </ButtonGroup>
-      {/* <Button
+      <Button
         fullWidth
-        endDecorator={<PlayCircleOutlineRoundedIcon />}
+        endDecorator={<ShareRoundedIcon />}
         size="lg"
-        variant="solid"
+        variant="plain"
         color="warning"
       >
-        COMEÇAR
-      </Button> */}
+        Compartilhar
+      </Button>
     </motion.div>
   );
 };

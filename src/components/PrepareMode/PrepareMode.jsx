@@ -10,7 +10,7 @@ const PrepareMode = ({content}) => {
 
   return (
     <Typography
-      level={"body-sm"}
+      level={"body-md"}
       component={motion.div}
       style={{margin: 0}}
       pb={1}

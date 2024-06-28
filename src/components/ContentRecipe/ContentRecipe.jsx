@@ -16,14 +16,19 @@ const ContentRecipe = ({step, content}) => {
   return (
     <Box component={motion.div} p={0} m={0}>
       {content.titulo.toLowerCase() === "ingredientes" ? (
-        content.conteudo.map((ingredients, i) => {
-          return (
-            <IngredientsList
-              key={i}
-              ingredients={ingredients}
-            ></IngredientsList>
-          );
-        })
+        <>
+          <Typography level={"body-sm"} component={"p"}>
+            selecione o que você tem em casa:
+          </Typography>
+          {content.conteudo.map((ingredients, i) => {
+            return (
+              <IngredientsList
+                key={i}
+                ingredients={ingredients}
+              ></IngredientsList>
+            );
+          })}
+        </>
       ) : (
         <PrepareMode key={step} content={content} />
       )}

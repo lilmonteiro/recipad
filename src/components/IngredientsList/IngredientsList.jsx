@@ -1,9 +1,9 @@
 import {Typography} from "@mui/joy";
 import {motion} from "framer-motion";
 import {useEffect} from "react";
+import Checkbox from "@mui/joy/Checkbox";
 
 const IngredientsList = ({ingredients}) => {
-    
   //   useEffect(() => {
   //     console.log(ingredients);
   //   }, [ingredients]);
@@ -22,15 +22,21 @@ const IngredientsList = ({ingredients}) => {
       <Typography level={"body-md"} component={motion.h2}>
         {ingredients.titulo !== "" && ingredients.titulo}
       </Typography>
-      {ingredients.titulo ? <br /> : null}
-      {ingredients.conteudo.map((item, i) => {
-        return (
-          <li key={i}>
-            {item}
-            <br />
-          </li>
-        );
-      })}
+
+      <div>
+        {ingredients.conteudo.map((item, i) => {
+          return (
+            <Typography
+              key={i}
+              level={"body-md"}
+              display={"block"}
+              style={{listStyleType: "none", margin: "10px 0"}}
+            >
+              <Checkbox size="md" key={i} label={item} />
+            </Typography>
+          );
+        })}
+      </div>
     </Typography>
   );
 };
